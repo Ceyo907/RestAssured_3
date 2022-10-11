@@ -40,13 +40,16 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.10.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.0</version>
+        </dependency>
 
     </dependencies>
 
     <build>
         <plugins>
-
             <plugin><!--derlemek için-->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -59,4 +62,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
